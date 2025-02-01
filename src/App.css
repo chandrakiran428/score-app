@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.add-player {
+  margin-bottom: 20px;
+}
+
+.add-player input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-player button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-player button:hover {
+  background-color: #45a049;
+}
+
+.cutoff-section {
+  margin-bottom: 20px;
+}
+
+.cutoff-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.cutoff-section button:hover {
+  background-color: #1e88e5;
+}
+
+.clear-scores {
+  margin-bottom: 20px;
+}
+
+.clear-scores button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.clear-scores button:hover {
+  background-color: #e53935;
+}
+
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scores {
+  margin: 10px 0;
+}
+
+.scores span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.score-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.score-input input {
+  padding: 5px;
+  font-size: 16px;
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.score-input button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.score-input button:hover {
+  background-color: #1e88e5;
+}
+
+.remove-player {
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.remove-player:hover {
+  background-color: #e53935;
+}
+
+.in-game-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.in-game-button.eliminated {
+  background-color: #ff4d4d;
+}
+
+.in-game-button:hover {
+  opacity: 0.9;
+}
+
+
+/* Main Content */
+.content {
+  flex: 1; /* Allow content to grow and push footer to the bottom */
+  padding: 20px;
+}
+
+/* Footer Section */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto; /* Push footer to the bottom */
+}
